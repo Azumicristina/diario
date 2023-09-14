@@ -1,0 +1,67 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("./32748791-textura-de-fondo-de-papel-arrugado.jpg");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'coureir New', courier, monospace;
+    justify-content: center;
+}
+.periodico{
+    width: 80%;
+    margin: 20px ;
+    padding: 1rem;
+    border: 2px solid transparent;
+    box-shadow: 1px 2px 4px 4px black;
+    background-image: url("./istockphoto-1386881540-612x612.jpg");
+    background-size:cover;
+    border-radius: 10px;
+}
+.nombre{
+    font-family: 'Courgette', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(red, green, blue);
+}
+.fecha {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 14px;
+    color: #000000;
+}
+.titulo {
+    margin-top: 50px;
+}
+.noticia{
+    font-weight: bold;
+    flex: 1;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+}
+div {
+    margin: 20px;
+    text-align: justify;
+    color: #000000;
+}
+section {
+    text-align: center;
+    color: #000000;
+    border-bottom: 2px solid blac;
+}
+
+    
